@@ -5,4 +5,6 @@ edition = "2024"
 
 [dependencies]
 diesel = { version = "2.2.0", features = ["postgres"] }
+bcrypt = "0.18"
 dotenvy = "0.15.7"
+uuid = { version= "1.22.0" , features = ["v4"]} 
